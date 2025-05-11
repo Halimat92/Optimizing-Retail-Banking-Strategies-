@@ -17,7 +17,7 @@ from sklearn.cluster import KMeans
 # Load dataset only once
 # @st.cache_data
 
-df = pd.read_csv("bank_data.csv")
+df = pd.read_csv("Bank/bank_data.csv")
   
 
 
