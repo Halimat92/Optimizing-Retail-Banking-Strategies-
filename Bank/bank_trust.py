@@ -15,12 +15,11 @@ from sklearn.cluster import KMeans
 
 
 # Load dataset only once
-@st.cache_data
-def load_data():
-    df = pd.read_csv("bank_data.csv")
-    return df
+# @st.cache_data
 
-df = load_data()
+df = pd.read_csv("bank_data.csv")
+  
+
 
 # Tab selector (use radio instead of st.tabs)
 selected_tab = st.radio("🧭 Navigator", ["🏠 Home", "📊 Demographics", "👥 Customer Segmentation"], horizontal=True)
