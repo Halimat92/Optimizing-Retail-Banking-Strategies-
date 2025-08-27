@@ -1,5 +1,5 @@
-🏦 RFM-Based Customer Segmentation for BankTrust
-This project focuses on optimizing retail banking strategies through RFM (Recency, Frequency, Monetary) analysis. Using customer transaction data, we segment users based on behavioral patterns to help BankTrust reduce churn, improve personalization, and enhance marketing efficiency.
+🏦 RFM-Based Customer Segmentation 
+This project focuses on optimizing retail banking strategies through RFM (Recency, Frequency, Monetary) analysis. Using customer transaction data, we segment users based on behavioral patterns to help reduce churn, improve personalization, and enhance marketing efficiency.
 ________________________________________
 📌 Project Objective
 To identify key customer segments using transaction history and clustering techniques. This segmentation enables BankTrust to develop data-driven strategies to retain valuable customers, re-engage inactive ones, and tailor marketing campaigns effectively.
