@@ -26,7 +26,7 @@ selected_tab = st.radio("🧭 Navigator", ["🏠 Home", "📊 Demographics", "�
 
 if selected_tab == "🏠 Home":
     st.markdown("<h3 style='color: black;'>🏦 BankTrust Customer Segmentation Interface</h3>", unsafe_allow_html=True)
-    st.image("Bank/bank_seg.webp", width=500)  
+    st.image("bank_seg.webp", width=500)  
 
     st.markdown("""
     ### 📌 Project Objective
