@@ -17,14 +17,14 @@ from sklearn.cluster import KMeans
 # Load dataset only once
 # @st.cache_data
 
-@st.cache_data
-def load_data():
-    return pd.read_csv("bank_data.csv")
+# @st.cache_data
+# def load_data():
+#     return pd.read_csv("bank_data.csv")
 
-df = load_data()
+# df = load_data()
 
 
-# df = pd.read_csv("bank_data.csv")
+df = pd.read_csv("Bank/bank_data.csv")
   
 
 
@@ -33,7 +33,7 @@ selected_tab = st.radio("🧭 Navigator", ["🏠 Home", "📊 Demographics", "�
 
 if selected_tab == "🏠 Home":
     st.markdown("<h3 style='color: black;'>🏦 BankTrust Customer Segmentation Interface</h3>", unsafe_allow_html=True)
-    st.image("bank_seg.webp", width=500)  
+    st.image("Bank/bank_seg.webp", width=500)  
 
     st.markdown("""
     ### 📌 Project Objective
